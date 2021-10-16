@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Javascript Project</title>
+		
+        <!--CSS Styles-->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link id="theme" rel="stylesheet" type="text/css" href="css/green.css">
+
+		<!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+       
+        <!--MomentJS-->
+		<script src=https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js></script>
+        
+
+	</head>
+
+	<body>
+		<!--Theme select-->
+		<div id="select-theme">
+			<div id="to-green" title="Green theme"></div>
+			<div id="to-red" title="Red theme"></div>
+			<div id="to-blue" title="Blue theme"></div>
+		</div>
+
+		<section id="global">
+			<!--Header section-->
+			<header>
+				<div id="logo">
+					<h1>JS Project</h1>
+				</div>
+				<div class="clearFix"></div>
+				<nav  id="menu">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="time.html">Time</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact us</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<!--Content section-->
+			<section id="content">
+
+				<div id="box">
+                    <h2>Time</h2>
+                    <div id="watch"></div>
+                    <!--Load Moment.js-->
+                </div>   
+				<aside id="sidebar">
+					<div id="about">
+						<h4>
+							<span>About us</span>
+						</h4>
+						<img src="img/snail.jpg" alt="Us">
+						<p>
+						    But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.		
+						</p>
+                    </div>
+                    
+					<div id="login">
+						<h4>
+							<span> Sign In</span>
+						</h4>
+						<form action="">
+							<label for="name">User:</label>
+							<input type="text" name="name" id="form_name">
+
+							<label for="email">Email:</label>
+							<input type="text" name="email">
+
+							<label for="password">Password:</label>
+							<input type="text" name="password">
+
+							<input type="submit" value="Log-in!">
+						</form>
+					</div>
+				</aside>
+				<div class="clearFix"></div>
+			</section>
+		</section>
+
+		<!--Footer section-->
+		<footer>
+			"Javascript Master" on Udemy by <strong>Marcos Escandon</strong>
+			<a href="#" class="goUp">Go Up!</a>
+		</footer>
+		
+		<!--Script section-->
+		<script src="js/time.js"></script>
+	</body>
+	
+</html>

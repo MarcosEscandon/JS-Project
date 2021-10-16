@@ -1,0 +1,19 @@
+/*ALL*/
+body{
+    background: url("../img/red-leaves.jpg");
+    background-attachment: fixed;
+}
+
+/*IDs*/
+#logo{   
+    background: rgb(226, 53, 53);
+}
+
+#menu ul li:hover{
+    background: rgb(226, 53, 53);
+}
+
+/*Classes*/
+.button-more{
+    background:  rgb(226, 53, 53);
+}
